@@ -1,7 +1,9 @@
 def fizzbuzz(num):
-    if num % 3 == 0:
+    if num % 3 == 0 and num % 5 == 0:
+        print('Fizzbuzz')
+    elif num % 3 == 0:
         print('Fizz')
-    if num % 5 == 0:
+    elif num % 5 == 0:
         print('Buzz')
 
-fizzbuzz(10)
+fizzbuzz(15)
